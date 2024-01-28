@@ -1,7 +1,47 @@
 $primary: #ef4089;
 
+.navbar-scroll {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.navbar {
+    transition: all 0.5s;
+}
+
+.blur {
+    filter: blur(40px);
+}
+
+.knowledge {
+    list-style-type: none;
+}
+
+.knowledge-option {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin: 15px 0px !important;
+    a {
+        color: white;
+        text-decoration: none;
+        transition: all 0.5s;
+    }
+}
+
+.knowledge-option > a:hover {
+    color: #ef4089 !important;
+    font-size: 25px;
+}
+.knowledge-option > a:active {
+    color: #bc326b !important;
+    font-size: 28px;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap");
 
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "./components/background";
 @import "./components/React";
 @import "./components/Animations";
-@import "../../node_modules/bootstrap/scss/bootstrap";
