@@ -650,4 +650,5 @@ function LaravelFicus() {
 }
 
 
+
 export { LaravelFicus, JSIcon, CSSIcon, PHPIcon, HTMLIcon, SASSIcon, Carpincho, MySQLIcon, MongoDBIcon, GraphQLIcon, UnknownIcon, BootstrapIcon, LaravelIcon, ReactIcon, NodeJSIcon, GitIcon, GithubIcon, BashIcon, Arrow };

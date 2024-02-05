@@ -26,12 +26,14 @@ $primary: #ef4089;
         color: white;
         text-decoration: none;
         transition: all 0.5s;
+        user-select: none;
     }
 }
 
 .knowledge-option > a:hover {
     color: #ef4089 !important;
     font-size: 25px;
+    cursor:pointer;
 }
 .knowledge-option > a:active {
     color: #bc326b !important;

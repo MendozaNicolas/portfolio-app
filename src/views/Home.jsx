@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Pedestal1, Pedestal2, Pedestal3 } from '../components/Pedestal';
-import { JSIcon, CSSIcon, PHPIcon, HTMLIcon, Carpincho, MySQLIcon, MongoDBIcon, GraphQLIcon, UnknownIcon, ReactIcon, BootstrapIcon, NodeJSIcon, LaravelIcon, GitIcon, GithubIcon, BashIcon, SASSIcon, Arrow, LaravelFicus } from '../components/Icons';
+import { JSIcon, CSSIcon, PHPIcon, HTMLIcon, Carpincho, MySQLIcon, MongoDBIcon, GraphQLIcon, UnknownIcon, ReactIcon, BootstrapIcon, NodeJSIcon, LaravelIcon, GitIcon, GithubIcon, BashIcon, SASSIcon, Arrow, LaravelFicus, Yeti } from '../components/Icons';
 
 export default function Home() {
 
@@ -205,14 +205,26 @@ export default function Home() {
           <a href="/laravel-ficus" className='link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' style={{ textDecoration: 'none' }}>
             <div className='container d-flex flex-column align-items-center overflow-hidden mt-5'>
               <LaravelFicus />
-              <h4>Laravel Ficus</h4>
+              <h4>Laravel Ficus</h4>-
+            </div>
+          </a>
+          <a href="/yeti-app" className='link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover' style={{ textDecoration: 'none' }}>
+            <div className='container d-flex flex-column align-items-center overflow-hidden mt-5'>
+              <img src='./assets/yeti-logo-icon.png' width={88} />
+              <h4>Yeti Heladeria</h4>
             </div>
           </a>
         </div>
       </section>
-      <script src="../particle.min.js"></script>
     </div >
   );
 }
+
+
+
+
+
+
+
 
 
